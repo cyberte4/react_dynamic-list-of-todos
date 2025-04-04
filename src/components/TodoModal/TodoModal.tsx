@@ -7,7 +7,6 @@ import { User } from '../../types/User';
 type Props = {
   todo: Todo;
   onClose: () => void;
-  user: User;
 };
 
 export const TodoModal: React.FC<Props> = ({ todo, onClose }) => {
